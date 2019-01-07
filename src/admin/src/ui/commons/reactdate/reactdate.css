@@ -1,0 +1,55 @@
+.DateRangePickerInput__withBorder {
+  border: 1px solid #D2D6DA;
+}
+
+.DateInput_input {
+  font-weight: 200 !important;
+  font-size: 14px !important;
+  line-height: 16px !important;
+  background-color: #fff !important;
+  width: 87%;
+  padding: 6px 3px 7px 6px !important;
+}
+.DateRangePickerInput div:first-child p:after {
+  display: none;
+}
+.DateInput {
+  width: 106px;
+}
+.DateRangePickerInput_arrow_svg {
+  vertical-align: middle;
+  fill: #484848;
+  height: 18px;
+  width: 18px;
+}
+
+.DateRangePicker p {
+  margin-bottom: -8px !important;
+}
+.DateInput_screenReaderMessage:after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  /* right: 16px; */
+  bottom: 9px;
+  z-index: 2px;
+  display: block;
+  left: 86px;
+  background: url(/images/calendar.png) no-repeat;
+  /* background-size: contain; */
+}
+
+.DateInput_input:after {
+  content: '';
+  width: 21px;
+  height: 22px;
+  position: absolute;
+  right: 16px;
+  bottom: 15px;
+  background: url('/images/calendar.png') no-repeat;
+  background-size: contain;
+}
+.DateInput_screenReaderMessage {
+  position: initial;
+}

@@ -1,0 +1,68 @@
+.title-driver {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(17, 17, 17, 0.6);
+}
+.dialog input {
+  padding: 9px 10px 6px 10px;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+  /* color: rgba(32, 48, 72, 0.4); */
+}
+
+.sub-title {
+  font-size: "12px" !important;
+  line-height: "22px" !important;
+  color: "rgba(17, 17, 17, 0.6)" !important;
+  font-family: "IBM Plex Sans", sans-serif !important;
+}
+.dialog .fontstyle-h5 {
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #203048;
+}
+.dialog fieldset {
+  border-color: rgba(32, 48, 72, 0.1);
+}
+.dialog.css-1492t68 {
+ color :#cdcdcd
+}
+.dialog .css-15k3avv{
+  z-index: 10000000000000 !important;
+  
+}
+.dialog .css-vj8t7z{
+  border-color: rgba(32, 48, 72, 0.1);
+}
+.dialog .css-10nd86i {
+  
+  margin-top: 5px;
+}
+.dialog .css-xp4uvy{
+  color: rgba(17, 17, 17, 0.6);
+}
+.option-select-custom{
+  z-index: 1000000000;
+
+}
+
+.dialog .Select-control{
+  border-color:rgba(32, 48, 72, 0.1);
+}
+.dialog .is-open {
+  z-index: 9999999 !important;
+  
+  }
+.dialog .Select-menu-outer{
+  z-index: 999999999999999 !important;
+  position: absolute !important;
+  display: block;
+    /* background: red; */
+
+  }
+  .dialog{
+    position: relative;
+  }

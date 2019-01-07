@@ -1,0 +1,23 @@
+.change-pass {
+  width: 100%;
+  height: 100%;
+}
+.change-pass .fontstyle-h5{
+  font-weight: 500 !important;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color:#203048;
+}
+.change-pass fieldset{
+  border-color: rgba(32, 48, 72, 0.1)
+
+}
+.change-pass input{
+   /* padding: 9px 10px 6px 10px;
+   font-size: 16px;
+   line-height: 25px; */
+   font-family: 'IBM Plex Sans', sans-serif;
+   color : rgba(32, 48, 72, 0.4);
+   padding-right: 27px;
+}

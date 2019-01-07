@@ -1,0 +1,49 @@
+{
+    "name": "ra-data-fakerest",
+    "version": "2.3.0",
+    "description": "JSON Server data provider for react-admin",
+    "main": "lib/index.js",
+    "module": "esm/index.js",
+    "sideEffects": false,
+    "files": [
+        "LICENSE",
+        "*.md",
+        "lib",
+        "esm",
+        "src"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marmelab/react-admin.git"
+    },
+    "keywords": [
+        "reactjs",
+        "react",
+        "react-admin",
+        "rest",
+        "fakerest",
+        "local"
+    ],
+    "author": "François Zaninotto",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/marmelab/react-admin/issues"
+    },
+    "homepage": "https://github.com/marmelab/react-admin#readme",
+    "scripts": {
+        "build": "rimraf ./lib && cross-env NODE_ENV=production BABEL_ENV=cjs babel --quiet ./src -d ./lib --ignore spec.js,test.js",
+        "build-esm": "rimraf ./esm && cross-env NODE_ENV=production BABEL_ENV=esm babel --quiet ./src -d ./esm --ignore spec.js,test.js",
+        "watch": "rimraf ./lib && cross-env NODE_ENV=production babel --watch ./src -d ./lib --ignore spec.js,test.js"
+    },
+    "dependencies": {
+        "fakerest": "~2.1.0"
+    },
+    "devDependencies": {
+        "babel-cli": "~6.26.0",
+        "cross-env": "^5.2.0",
+        "rimraf": "^2.6.2"
+    },
+    "peerDependencies": {
+        "react-admin": "^2.0.0"
+    }
+}

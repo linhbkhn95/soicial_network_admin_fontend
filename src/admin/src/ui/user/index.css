@@ -1,0 +1,19 @@
+.root-snapbar{
+  background: white !important;
+  color:black;
+}
+.err-msg-login{
+  color: rgb(244, 67, 54);
+  /* color: rgba(0, 0, 0, 0.54); */
+  margin: 0;
+  font-size: 0.75rem;
+  text-align: left;
+  font-weight: bold;
+  /* margin-top: 8px; */
+  min-height: 1em;
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1em;
+}
+.veepStyle .input-container  p{
+  font-weight: bold;
+}

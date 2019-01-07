@@ -1,0 +1,297 @@
+import englishMessages from 'ra-language-english';
+import { models } from 'data-generator';
+
+export default {
+  ...englishMessages,
+  label: {
+    button: {
+      signin: 'Continue',
+      changePassword: 'Change Password',
+      createDriver: 'Create Driver',
+    },
+    input: {
+      username: 'User Name',
+      password: 'Password',
+      phone: 'Phone Number',
+      currentPassword: 'Current password',
+      newPassword: 'New password',
+      reNewPassword: 'Once new password',
+    },
+    support: 'Directly Supporting',
+    header: {
+      create_vehicle: 'Create Vehicle',
+      edit_vehicle: 'Edit Vehicle',
+      authPicture: 'Authenticated Car Pictures',
+      regisPicture: 'Registration Paper Picture',
+      certPicture: 'Certification Paper Picture',
+      insurPicture: 'Insurance Paper Picture',
+      ensignPic: 'Company Ensign Picture',
+    },
+    color: {
+      red: 'Red',
+      blue: 'Blue',
+      green: 'Green',
+      black: 'Black',
+      white: 'White',
+    },
+    form: {
+      header: {
+        vehicleInfo: 'Vehicle Info',
+        certificationInfo: 'Certification Info',
+        insuranceInfo: 'Insurance Info',
+        companyInfo: 'Company Ensign',
+      },
+      subtitle: {
+        vehicleInfo:
+          'Please fill the fields below with correct info those are identical with the info on the car registration paper',
+        certificationInfo:
+          'Please fill the fields below with correct info those are identical with the info on the car certification paper',
+        insuranceInfo:
+          'Please fill the fields below with correct info those are identical with the info on the car insurance paper',
+        companyInfo:
+          'Please fill the fields below with correct info those are identical with the info on the car contract paper',
+      },
+    },
+    field: {
+      [models.vehicle.vehicleOwner]: 'Owner`s name',
+      [models.vehicle.plate]: 'Plate number',
+      [models.vehicle.branch]: 'Company',
+      [models.vehicle.subBranch]: 'Branch',
+      [models.vehicle.colour]: 'Color',
+      [models.vehicle.seat]: 'Number of seats',
+      [models.vehicle.year]: 'Manufacturing year',
+      [models.vehicle.certificationNumber]: 'Certification number',
+      [models.vehicle.certificationExpireDate]: 'Certification Expire Date',
+      [models.vehicle.insuranceNumber]: 'Insurance number',
+      [models.vehicle.insuranceExpireDate]: 'Insurance Expire Date',
+      [models.vehicle.company]: 'Company',
+      [models.vehicle.companyExpireDate]: 'Contract Expire Date',
+      [models.vehicle.leftPicture]: 'Left Picture',
+      [models.vehicle.rightPicture]: 'Right Picture',
+      [models.vehicle.frontPicture]: 'Front Picture',
+      [models.vehicle.backPicture]: 'Back Picture',
+      [models.vehicle.certificationFront]: 'Certification Front',
+      [models.vehicle.certificationBack]: 'Certification Back',
+      [models.vehicle.insuranceFront]: 'Insurance Front',
+      [models.vehicle.insuranceBack]: 'Insurance Back',
+      [models.vehicle.registrationBack]: 'Registration Back',
+      [models.vehicle.registrationFront]: 'Registration Front',
+      [models.vehicle.companyEnsign]: 'Company Ensign',
+      [models.vehicle.ensignType]: 'Ensign type',
+      [models.vehicle.ensignNumber]: 'Ensign number',
+      [models.vehicle.insuranceImg]: 'Inside image',
+      [models.vehicle.certificationImg]: 'Inside image',
+    },
+  },
+  titleContent: {
+    listDriver: 'Driver List',
+    listPayment: 'Payment List',
+    listIncome: 'Income List',
+  },
+  placeholder: {
+    searchVehicle: 'Search vehicle',
+    searchPayment: 'search payment',
+    searchDriver: 'Search dehicle/Search driver',
+    nameDriver: 'Fill name driver',
+    phoneDriver: 'Fill phone driver',
+    vehicleDriver: 'Select vehicle',
+    startDateId: 'Start date',
+    endDateId: 'End date',
+    newPassword: 'Fill new password',
+    reNewPassword: 'Fill once new password',
+    currentPassword: 'Fill current password',
+    [models.vehicle.vehicleOwner]: 'Fill with the legal owner`s name',
+    [models.vehicle.plate]: 'Fill the plate number',
+    [models.vehicle.branch]: 'Fill company',
+    [models.vehicle.subBranch]: 'Fill branch',
+    [models.vehicle.colour]: 'Select the color of car',
+    [models.vehicle.seat]: 'Select the number of seats',
+    [models.vehicle.year]: 'Select the manufacturing year',
+    [models.vehicle.registrationNumber]: 'Fill the registration number',
+    [models.vehicle.registrationExpireDate]:
+      'Select the registration Expire Date',
+    [models.vehicle.certificationNumber]: 'Fill the certification number',
+    [models.vehicle.certificationExpireDate]:
+      'Select the certification Expire Date',
+    [models.vehicle.insuranceNumber]: 'Insurance number',
+    [models.vehicle.insuranceExpireDate]: 'Select the insurance Expire Date',
+    [models.vehicle.company]: 'Fill the company name',
+    [models.vehicle.companyExpireDate]: 'Select the contract expire date',
+    [models.vehicle.ensignType]: 'Fill the ensign type',
+    [models.vehicle.ensignNumber]: 'Fill the ensign number',
+
+    fleet_id: 'Select a fleet',
+    role: 'Select a role',
+  },
+  message: {
+    welcome: 'Welcome to Veep portal',
+    singin_with_phone_number: 'Please login with your phone number',
+    have_app: 'Have you not yet had Veep App ?',
+    outdated: 'is outdated',
+    willOutdated: 'will be outdated at',
+  },
+  keyword: {
+    days: 'days',
+  },
+  text: {
+    pagination: '%{rangeStart} - %{rangeEnd} of %{total}',
+    seats: 'seats',
+    total: 'Total',
+    vehicle: 'Vehicle',
+    driver: 'Driver',
+    online: 'online',
+  },
+  pos: {
+    search: 'Search',
+    configuration: 'Configuration',
+    language: 'Language',
+    theme: {
+      name: 'Theme',
+      light: 'Light',
+      dark: 'Dark',
+    },
+    dashboard: {
+      monthly_revenue: 'Monthly Revenue',
+      new_orders: 'New Orders',
+      pending_reviews: 'Pending Reviews',
+      new_customers: 'New Customers',
+      pending_orders: 'Pending Orders',
+      order: {
+        items:
+          'by %{customer_name}, one item |||| by %{customer_name}, %{nb_items} items',
+      },
+      welcome: {
+        title: 'Welcome to react-admin demo',
+        subtitle:
+          "This is the admin of an imaginary poster shop. Fell free to explore and modify the data - it's local to your computer, and will reset each time you reload.",
+        aor_button: 'react-admin site',
+        demo_button: 'Source for this demo',
+      },
+    },
+  },
+  resources: {
+    vehicles: {
+      name: 'Vehicles',
+      fields: {
+        [models.vehicle.plate]: 'Plate number',
+        [models.vehicle.branch]: 'Manufacture',
+        [models.vehicle.subBranch]: 'Brand',
+        [models.vehicle.year]: 'Year',
+        [models.vehicle.driver]: 'Driver',
+        [models.vehicle.state]: 'State',
+        [models.vehicle.seat]: 'Seats',
+      },
+      page: {
+        delete: 'Delete Customer',
+      },
+      source: {
+        certification: 'Certification',
+        insurance: 'Insurance',
+        companyContract: 'Company contract',
+      },
+      status: {
+        blocked: 'Blocked',
+        approved: 'Approved',
+        pending: 'Pending',
+        rejected: 'Rejected',
+      },
+    },
+    incomes: {
+      name: 'Incomes',
+      fields: {
+        id: 'Id',
+        [models.income.plate]: 'Back Picture',
+        [models.income.driver]: 'Owner',
+        [models.income.vehicle]: 'Vehicle',
+        [models.income.customer_payment_money]: 'Customer payment money',
+        [models.income.runtime]: 'Run time',
+        [models.income.customer_payment_card]: 'Customer payment card',
+        [models.income.actually_received]: 'Actually received',
+        [models.income.total_money]: 'Total_money',
+      },
+    },
+
+    payments: {
+      name: 'Payments',
+      fields: {
+        id: 'Id',
+        [models.payment.code]: 'Plate',
+        [models.payment.time]: 'Time',
+        [models.payment.total_money]: 'Total moneny',
+        [models.payment.status]: 'Status',
+        [models.payment.total_vehicle]: 'Total vehicle',
+        [models.payment.runtime]: 'Run time',
+        [models.payment.time_arg]: 'Time arg',
+        [models.payment.success]: 'Success',
+        [models.payment.bonus]: 'Bonus',
+      },
+    },
+    drivers: {
+      name: 'Drivers',
+      fields: {
+        id: 'Id',
+        [models.driver.fullName]: 'Full name',
+        [models.driver.phone]: 'Phone',
+        [models.driver.state]: 'State',
+        [models.driver.status]: 'Status',
+        [models.driver.vehicle]: 'Vehicle',
+        [models.driver.runtime]: 'Run time',
+        [models.driver.profile_picture]: 'Profile picture',
+        [models.driver.income]: 'Income',
+        [models.driver.rate]: 'Rate',
+        [models.driver.seat]: 'Seate',
+      },
+      status: {
+        blocked: 'Blocked',
+        approved: 'Approved',
+        pending: 'Pending',
+        rejected: 'Rejected',
+        noVehicle: 'Has not Vehicle',
+      },
+    },
+    changepass: {
+      name: 'Change password',
+    },
+    map: {
+      name: 'Map',
+      car: {
+        running: 'Đang chạy',
+        guests: 'Có khách',
+        free: 'Trống',
+      },
+    },
+    search: {
+      name: 'Search',
+      suggestion: {
+        car: {
+          title: 'Biển số xe',
+          subTitle: 'Gợi ý kết quả tìm kiếm',
+          noResult: 'Không có kết quả',
+        },
+        driver: {
+          title: 'Tài xế',
+          subTitle: 'Gợi ý kết quả tìm kiếm',
+          noResult: 'Không có kết quả',
+        },
+      },
+      driver: {
+        result: '%{total} kết quả tìm kiếm cho "%{keyword}"',
+        readmore: 'Xem thêm',
+      },
+      car: {
+        readmore: 'Xem thêm',
+        result: '%{total} kết quả tìm kiếm cho "%{keyword}"',
+      },
+      booking: {
+        readmore: 'Xem thêm',
+        result: '%{total} kết quả tìm kiếm cho "%{keyword}"',
+      },
+    },
+    contract: {
+      name: 'Contract',
+      pageTitle: 'Ảnh scan hợp đồng',
+      pageSubtitle: 'Click vào ảnh để phóng lớn',
+      btnDownloadPdfTitle: 'Download (PDF)',
+    },
+  },
+};

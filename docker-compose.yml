@@ -1,0 +1,14 @@
+version: '2.1'
+services:
+  fleet:
+    build:
+      context: .
+      args:
+        API_BASE: http://118.70.185.117:3009
+        AUTH_BASE: http://118.70.185.117:3009
+        APP_ENV_ARG: production
+    image: veep/fleet
+    ports:
+      - 4000:80
+    env_file:
+      - docker.env

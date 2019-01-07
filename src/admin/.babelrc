@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": ["./src"],
+        "alias": {
+          "app": "./src",
+          "store": "./src/store",
+          "ui": "./src/ui"
+        },
+        "extensions": [".js", ".ios.js", ".android.js"]
+      }
+    ],
+    "transform-decorators-legacy"
+  ]
+}

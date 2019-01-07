@@ -1,0 +1,12 @@
+
+.title-driver{
+  font-size: 14px;
+  line-height: 22px;
+  color:rgba(17, 17, 17, 0.6);
+}
+.sub-title{
+  font-size: '12px' !important;
+  line-height: '22px' !important;
+  color:'rgba(17, 17, 17, 0.6)' !important;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+}

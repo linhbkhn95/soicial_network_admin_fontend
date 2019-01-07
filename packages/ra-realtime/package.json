@@ -1,0 +1,51 @@
+{
+    "name": "ra-realtime",
+    "version": "2.3.1",
+    "description": "A saga enabling realtime updates for react-admin",
+    "main": "lib/index.js",
+    "module": "esm/index.js",
+    "sideEffects": false,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marmelab/react-admin.git"
+    },
+    "bugs": {
+        "url": "https://github.com/marmelab/react-admin/issues"
+    },
+    "homepage": "https://github.com/marmelab/react-admin#readme",
+    "authors": [
+        "Gildas Garcia"
+    ],
+    "keywords": [
+        "reactjs",
+        "react",
+        "react-admin",
+        "admin-on-rest",
+        "rest",
+        "realtime"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "rimraf ./lib && cross-env NODE_ENV=production BABEL_ENV=cjs babel --quiet ./src -d ./lib --ignore spec.js,test.js",
+        "build-esm": "rimraf ./esm && cross-env NODE_ENV=production BABEL_ENV=esm babel --quiet ./src -d ./esm --ignore spec.js,test.js",
+        "watch": "rimraf ./lib && cross-env NODE_ENV=production babel --watch ./src -d ./lib --ignore spec.js,test.js"
+    },
+    "dependencies": {
+        "lodash": "~4.17.5"
+    },
+    "peerDependencies": {
+        "react-admin": "^2.3.1",
+        "react-router": "~4.2.0",
+        "react-router-redux": "~5.0.0-alpha.9",
+        "redux-saga": "~0.16.0"
+    },
+    "devDependencies": {
+        "babel-cli": "~6.26.0",
+        "cross-env": "^5.2.0",
+        "react-admin": "^2.3.1",
+        "react-router": "~4.2.0",
+        "react-router-redux": "~5.0.0-alpha.9",
+        "redux-saga": "~0.16.0",
+        "rimraf": "^2.6.2"
+    }
+}
